@@ -19,8 +19,8 @@ const SwitchScreen = (props: UIProps) => {
     };
     return (
         <>
-            <StatusBar backgroundColor={'#0028a8'} barStyle={'light-content'} />
-            <SafeAreaView style={{ flex: 1, backgroundColor: '#0028a8' }}>
+            <StatusBar backgroundColor={'#0028a8'} barStyle={'dark-content'} />
+            <SafeAreaView style={{ flex: 1, }}>
                 <View style={{ flex: 1 }}>
                     {ScreenRender()}
                 </View>

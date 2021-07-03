@@ -34,7 +34,7 @@ const HomeLayout = (props: UIProps) => {
     )
 
     return (
-        <Layout flex marginHorizontal={15} paddingVertical={10}>
+        <Layout color='green' flex  paddingVertical={10}>
             <Label>Báo cáo vận đơn ngày {dateClient.getDateString(new Date().getTime())}</Label>
             <Layout horizontal middle marginTop={5}>
                 <Icon name='dot-circle-o' type='FontAwesome' style={{ fontSize: 18, marginRight: 5 }} />

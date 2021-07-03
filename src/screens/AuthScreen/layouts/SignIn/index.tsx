@@ -33,7 +33,7 @@ const SignInScreen = (props: UIProps) => {
                             <Label marginVertical={10}>Tài khoản<Label color='red'>*</Label></Label>
                             <TextInputUI
                                 placeholder={'Nhập số điện thoại/email'}
-                                contentstyle={{ paddingLeft: 10 }}
+                                contentstyle={{ paddingLeft: 10,  }}
                             // uistyle={{ marginHorizontal: 30 }}
                             //   errorMessage={errorMessage(c.fieldName)}
                             //   textValue={formik.values[c.fieldName]}
